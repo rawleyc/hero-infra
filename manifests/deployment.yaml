@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/rawleyc/my-web-app:sha-089979428c13920ce5119d3b4e9a8ceb2a699cc1
+        image: ghcr.io/rawleyc/my-web-app:sha-803de02e66b51b0e2eb34648bf9552d5ba90c421
         ports:
         - containerPort: 3000
 ---

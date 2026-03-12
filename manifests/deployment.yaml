@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/your-github-username/rawleyc # The Warehouse location
+        image: ghcr.io/rawleyc # The Warehouse location
         ports:
         - containerPort: 3000
 ---

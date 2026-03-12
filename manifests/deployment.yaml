@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: web
-        image: ghcr.io/rawleyc/my-web-app:latest # The Warehouse location
+        image: ghcr.io/rawleyc/my-web-app:sha-25795f7 # The Warehouse location
         ports:
         - containerPort: 3000
 ---

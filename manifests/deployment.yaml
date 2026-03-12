@@ -3,6 +3,7 @@ kind: Deployment
 metadata:
   name: my-hero-app
 spec:
+  revisionHistoryLimit: 3
   replicas: 2 # Run two copies for "Resilience"
   selector:
     matchLabels:
